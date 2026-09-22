@@ -919,58 +919,14 @@ e os webhooks Discord devem ser substituídos por placeholders.
 
 ## **Nunca publiques as credenciais atuais presentes no ficheiro.**
 
-# 📁 Estrutura
-
-Atualmente, a implementação principal está concentrada num único ficheiro:
-
-```text
-Projeto 6Man.js
-```
-
-O ficheiro contém tanto a configuração da sala como a implementação dos diferentes sistemas do jogo.
-
-Para uma versão futura, uma possível evolução seria separar os sistemas em módulos:
-
-```text
-src/
-├── game/
-│   ├── match.js
-│   ├── players.js
-│   ├── lives.js
-│   └── positions.js
-│
-├── stats/
-│   ├── statistics.js
-│   ├── ranks.js
-│   └── leaderboard.js
-│
-├── economy/
-│   ├── shop.js
-│   ├── betting.js
-│   └── rewards.js
-│
-├── moderation/
-│   ├── chat.js
-│   ├── spam.js
-│   ├── bans.js
-│   └── afk.js
-│
-├── integrations/
-│   └── discord.js
-│
-└── map/
-    └── stadium.js
-```
-
-Esta estrutura **não corresponde à estrutura atual do projeto**; representa apenas uma possível evolução arquitetural.
-
----
 
 # 📌 Estado do projeto
 
-O código contém uma implementação extensa de uma sala 6Man, incluindo múltiplos sistemas integrados.
+Este projeto foi desenvolvido em 2024 originalmente para uso próprio, como uma sala/script personalizado de HaxBall 6Man.
 
-O próprio sistema apresenta mensagens indicando que a sala/script se encontra em fase **beta**, pelo que algumas áreas podem necessitar de manutenção ou refatoração.
+Na altura em que foi desenvolvido, eu tinha consideravelmente menos conhecimentos de programação do que tenho atualmente.
+
+O projeto encontra-se inacabado e não representa necessariamente a forma como eu estruturaria ou desenvolveria um projeto semelhante atualmente.
 
 ---
 
